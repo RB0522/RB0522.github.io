@@ -13,13 +13,20 @@
     <div class="header">
         <h1>Sunset Diner</h1>
     </div>
-    <ul class="navbar">
-        <li class="navlink"><a href="index.html">Home</a></li>
-        <li class="navlink"><a href="aboutus.html">About Us</a></li>
-        <li class="navlink"><a href="menu.html">Menu</a></li>
-        <li class="navlink"><a href="specials.html">Specials</a></li>
-        <li class="navlink"><a href="#footer-email">Contact Us</a></li>
-    </ul>
+    <div id="mobile-container">
+        <ul class="navbar">
+            <li class="navlink"><a href="index.html">Home</a></li>
+            <li class="navlink"><a href="aboutus.html">About Us</a></li>
+            <li class="navlink"><a href="menu.html">Menu</a></li>
+            <li class="navlink"><a href="specials.html">Specials</a></li>
+            <li class="navlink"><a href="#footer-email-btn">Contact Us</a></li>
+        </ul>
+        <button class="hamburger" aria-expanded="false">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </button>
+    </div>
     <div class="content">
         <p>
         <h2>About Us</h2>
@@ -92,6 +99,7 @@
             </div>
         </div>
     </div>
+    <script src="diner.js"></script>
 </body>
 
 </html>
